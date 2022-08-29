@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+p{
+    font-size: 15px;
+}
+
+
+.strow1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 60%;
+    width: auto;
+    overflow-x: hidden;
+    margin-top: 8%;
+    
+
+}
+ .description{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+  right:0;
+  font-size: 12px;
+  color: white;
+  text-align:center;
+    opacity: 0;
+    display: block;
+    background-color: rgba(11, 12, 12, 0.856);
+    
+    
+    
+    
+    
+} 
+
+.description:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+.titleName{
+    width: 20%;
+    height: 94px;
+    font-size: 24px;
+    box-shadow: 5px 10px 8px #888888;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    text-align: left;
+
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.box {
+    /* border: 1px solid ; */
+    /* border: 1px solid black; */
+    width: 18%;
+    height:85%;
+    box-shadow: 5px 10px 8px #888888;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display:flex;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* .b1{
+padding-left: 30px;
+}
+#img1{
+    
+    width: 100%;
+    height: 78%;
+}
+#img2{
+    height: 76%;
+    width: 84%;
+} */
+img {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 70%;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+#logo {
+    width: 10%!important;
+    height: 10% !important;
+    padding-right: 22px;
+
+}
+.titleName{
+    font-size: 20px;
+}
+#image {
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+justify-content: space-between;
+    background-color: rgba(34, 6, 104, 0.878);
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(239, 233, 233);
+}
+
+h3 {
+    text-align: left;
+}
+
+
+
+.marq {
+    font-size: 44px;
+    behavior: alternate;
+    color: rgb(202, 103, 103);
+    background-color: black;
+
+    text-align: center;
+}
